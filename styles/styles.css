@@ -1,5 +1,11 @@
+:root {
+    --heading-color: darkblue;
+    --image-border: 1px solid black;
+}
+
+
 nav {
-    background-color: darkblue;
+    background-color: var(--heading-color);
     padding: 10px;
 }
 
@@ -10,13 +16,13 @@ nav a {
 }
 
 h1 {
-    color: darkblue;
+    color: var(--heading-color);
 }
 
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: var(--image-border);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
@@ -32,7 +38,7 @@ main {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px rgb(0 0 0 / 0.2);
+    border: var(--image-border);
     padding: 1rem;
     background-color: #eee;
     color: #333;
