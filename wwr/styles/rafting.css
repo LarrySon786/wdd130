@@ -16,11 +16,8 @@
 
   .open-sans {
     font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-variation-settings:
-      "width" 75;
   }
 
 
@@ -34,10 +31,8 @@ h1, h2, h3 {
 
 p {
     font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-variation-settings: "width" 75;
     color: var(--primary-color)
 }
 
@@ -75,8 +70,7 @@ p {
 
 .stats img{
     width:10rem;
-    float:right;
-    float:top;
+    float: right;
     bottom:10rem;
     left:1rem;
 }
