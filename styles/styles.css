@@ -1,3 +1,5 @@
+
+
 * {
     margin: 0;
     padding: 0;
@@ -5,10 +7,39 @@
 }
 
 :root {
-    --heading-color: darkblue;
+    --heading-color: #00008b;
     --image-border: 1px solid black;
+    --primary-color: #264653;
+    --secondary-color: #2A9D8F;
+    --accent1: #E9C46A;
+    --accent2: #F4A261;
+    
 }
 
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+
+  .open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "width" 75;
+  }
+
+  h1, h2, h3, h4, h5, h6 {font-family: 'Poppins', sans-serif}
 
 nav {
     background-color: var(--heading-color);
