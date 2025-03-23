@@ -55,27 +55,34 @@ p {
     Height: auto;
 }
 
-.mission {
+.hero h1 {
     position: absolute;
+    width: 100%;
+    background:radial-gradient(#eee, #E9C46A);
+    top: 0;
+}
+
+.stats {
+    position: absolute;
+    bottom: 2rem;
+    left: 1rem;
 	background: radial-gradient(#eee, #E9C46A);
 	border: 1px solid #000;
 	padding: 0.65rem;
 	box-shadow: 0 0 30px #111;
 	opacity: 0.9;
-
-}
-.hero h1 {
-    position: absolute;
-    background-size:cover;
-    background:radial-gradient(#eee, #E9C46A);
-    top: 1rem;
-    Right: 50%;
-
-
-
 }
 
-.articles img {
+.stats img{
+    width:10rem;
     float:right;
     float:top;
+    bottom:10rem;
+    left:1rem;
+}
+
+.stats p {
+    float:left;
+    top: 1rem;
+
 }
