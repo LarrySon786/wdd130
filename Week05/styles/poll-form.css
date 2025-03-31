@@ -1,0 +1,103 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 1rem;
+    color: Teal;
+}
+
+header {
+    text-align: center;
+    border-bottom: 1px black;
+    width: 100%
+}
+
+h1 {
+    text-align: center
+}
+
+form {
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid black;
+    background-color: lightcyan;
+    width:50rem;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 0.75rem;
+    border: black;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+legend {
+    font-weight: 800;
+    font-size: 1.2rem;
+    text-align: center;
+
+}
+
+label, input, button, select, textarea {
+    font-family: poppins
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.25rem;
+    font-size: larger;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+    padding: 0.25rem
+    
+
+}
+
+button {
+    background-color: ivory;
+    height: 2.5rem;
+    width: 10rem;
+    text-align: center
+
+
+}
+
+button:hover {
+    background-color: green;
+    font-weight: 800;
+    color: whitesmoke
+}
+
+footer {
+    text-align: center;
+    background-color: bisque;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem;
+}
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
+
