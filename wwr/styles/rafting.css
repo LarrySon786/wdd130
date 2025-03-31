@@ -161,7 +161,7 @@ footer nav{
     grid-template-rows: 12fr;
     margin-left: 2rem;
     margin-right: 2rem;
-    border: 1px solid rgba(0,0,0,.1)1;
+    border: 1px solid rgba(0,0,0,.1);
     margin-bottom: 3rem;
     padding: 1rem;
 }
