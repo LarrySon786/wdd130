@@ -120,6 +120,23 @@ p {
     top: 0;
 }
 
+.heros {
+    position: relative;
+}
+
+.heros img {
+    display: block;
+    width: 100%;
+    Height: auto;
+}
+
+.heros h1 {
+    position: absolute;
+    width: 100%;
+    background:radial-gradient(#eee, #2A9D8F);
+    top: 0;
+}
+
 .stats {
     position: absolute;
     bottom: 2rem;
@@ -283,5 +300,225 @@ button:hover {
     text-align: center;
 }
 
+.review {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.review p{
+    font-style: italic;
+    text-align: center;
+    font-size: larger;
+}
+
+.action {
+    display: flex;
+    margin: 3rem;
+}
 
 
+.action img{
+    float:right;
+}
+
+.call{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    text-align: center;
+    align-items: center;
+}
+
+.call h1 {
+    margin-top: 4rem;
+}
+
+.call p{
+    max-width: 75%;
+}
+
+#myButton {
+    display: inline-block;
+
+    width: 10rem;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #1d6c62;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#myButton:hover {
+    background-color:#264653;
+}
+
+#newsletters {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    margin: 0.5rem;
+}
+
+.offerings{
+    display: grid;
+    background-color:#1d6c62;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 3fr 1fr;
+    align-items: center;
+    column-gap: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.image1 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin: 2rem;
+    margin-bottom: -1rem;
+}
+
+.image2 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    margin: 2rem;
+    margin-bottom: -1rem;
+}
+
+.paragraph1 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center;
+    color:#eee;
+}
+
+.paragraph2 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    text-align: center;
+    color:#eee;
+}
+
+.trips {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 4rem 4rem;
+    column-gap: 2rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.trips img {
+    width:100%;
+
+}
+
+.trips h1 {
+    font-size: 1.4rem;
+}
+
+.trips p {
+    text-align: center;
+}
+
+/* .trip1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.trip2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.trip3 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.triphead1 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.triphead2 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.triphead3 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+} */
+
+.calltocontact {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+
+}
+
+#contactButton {
+    display:flex;
+    justify-content: center;
+    width: 20rem;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #1d6c62;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#contactButton:hover {
+    background-color:#264653;
+}
+
+#tableid {
+    display: flex;
+    justify-content: center;
+
+}
+
+table {
+    background-color:blanchedalmond;
+    color:#264653;
+    border-collapse: collapse;
+    letter-spacing: 1px;
+    border: 2px solid rgb(0, 0, 0);
+    font-family: poppins;
+    max-width: 55rem;
+    margin: 3rem;
+    padding: 1rem;
+}
+table caption {
+    caption-side: top;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+table thead {
+    padding: 1rem;
+    height: 3rem;
+}
+
+table tr {
+    border: 2px solid rgb(0, 0, 0);
+}
+
+table th{
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 2rem;
+}
+
+table td {
+    text-align: center;
+    padding: 2rem;
+    border: 2px solid rgb(0, 0, 0);
+}
